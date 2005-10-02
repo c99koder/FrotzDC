@@ -1,0 +1,29 @@
+=======================
+Bug-testing Programs ||
+=======================
+
+Unix Frotz now comes with crashme, TerpEtude, gntests, strictz, and
+Unicode Test.  These are intended to excercise the interpreter and
+verify that it is functioning according to spec.  You will find these
+programs in the src/test/ directory.
+
+=====================
+Arrow Key Handling ||
+=====================
+
+Not really a bug, but an idiosyncracy.  In "Journey", sometimes you can't
+use the right-arrow key to move from the "party commands" menu to the
+"individual commands" menu.  IMHO, this is a bit sloppy, but it isn't
+Frotz's fault.  Instead, use the spacebar to jump from menu to menu. 
+I mistakenly attributed this to an unknown bug.  That'll teach
+me to do bugtesting when I'm about to nod off to sleep.
+
+
+
+===================
+Other Known Bugs ||
+===================
+
+Sound flag is not being set properly.
+
+

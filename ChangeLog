@@ -1,0 +1,14 @@
+Summary of changes between FrotzDC 1.0 and 1.1
+==============================================
+* Fixed file selector bugs
+* Created icons for VMU files
+
+Summary of changes between FrotzDC 0.6 and 1.0
+==============================================
+* Core upgraded to 2.43
+* Now licensed under the GPL
+* Color support
+* Timed input support
+* Limited sound effect support (wav files only)
+* New file selector
+* Misc. bug fixes and improvements

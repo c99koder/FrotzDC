@@ -1,0 +1,12 @@
+What are all these files for?
+
+AUTHORS		People who've had a hand in making Frotz what it is.
+BUGS		A list of known bugs and workarounds (if known).
+COPYING		Full text of the GNU General Public License.
+ChangeLog	Summary of changes from one version to another.
+HOW_TO_PLAY	How to play Interactive Fiction.
+Makefile	The Makefile (the INSTALL file tells you about this).
+README.1st	This file.
+TODO		Stuff to do in no particular order.
+
+src/		Source code to FrotzDC.
