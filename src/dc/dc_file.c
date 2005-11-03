@@ -98,17 +98,16 @@ void vmuify(char *src, char *dst, char *sdesc, char *ldesc, char *appid) {
   vmu_pkg_t pkg; //this is our VMU file header
   uint8 *pkg_out; //this will hold the file after the header is added
   int pkg_size; //this is the size of the file after the header is added 
+
   //load the file into RAM
   fd=fs_open(src,O_RDONLY);
   if(fd==0) {
     printf("File error (%s/%s)\n",fs_getwd(),src);
     return;
   }
-  fs_seek(fd,0,SEEK_END); //seek to the end of the file
-  file_size=fs_tell(fd);  //find out where we are and store it as the file size
-  fs_seek(fd,0,SEEK_SET); //go back to the beginning of the file
 
-  data=malloc(file_size+1); //allocate room to store the file in RAM
+  file_size=fs_total(fd);  //store the file size
+  data=malloc(file_size); //allocate room to store the file in RAM
   fs_read(fd,data,file_size); //read the file into RAM
   fs_close(fd); 
 
