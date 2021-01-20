@@ -14,7 +14,7 @@ The latest version of FrotzDC has limited support for sound effects. In order to
 
 FrotzDC requires a font file on the root of the CD named `hybrid.fnt`.
 The original release includes a font that supports [MS-DOS code page 437](https://en.wikipedia.org/wiki/Code_page_437), which is available in this repo as [cp437.fnt](fonts/cp437.fnt).
-A new font supporting latin1 was contribued by @hlabrand is available in this repo as [latin1.fnt](fonts/latin1.fnt).
+A new font supporting latin1 was contribued by [@hlabrand](https://github.com/hlabrand) is available in this repo as [latin1.fnt](fonts/latin1.fnt).
 Either file can be renamed to `hybrid.fnt` on the root of your Dreamcast CD-ROM depending on which character set is required for your Z-Machine game.
 
 ## Screenshots
